@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Marhey:wght@300..700&display=swap');
 
+:root {
+    --bs-table-color-state: #1283b9;
+}
+
 h1, h2 {
     font-family: "Marhey", sans-serif;
 }
@@ -12,6 +16,10 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.navbar {
+    background-color: #06435f;
 }
 
 .nav-link.active {
@@ -33,9 +41,6 @@ h2{
     text-transform: capitalize;
 }
 
-caption {
-    background-color: #1283b9;
-}
 
 .col > img {
     box-shadow: 1px 1px 5px #06435f;
@@ -47,3 +52,21 @@ caption {
     }
 }
 
+th {
+    font-family: "Marhey", sans-serif;
+}
+
+#table-title {
+    background-color: #1283b9;
+    color: white; 
+    text-align: center;
+}
+
+#table-rows {
+    background-color: #06435f;
+    color: white;
+}
+
+tr td:first-child {
+    font-family: "Marhey", sans-serif;
+}
